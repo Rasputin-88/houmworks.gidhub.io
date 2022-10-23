@@ -1,0 +1,113 @@
+@import "zero_sile.scss";
+
+.main {
+	border:1px solid black;
+	width:1450px;
+	height:1700px;
+	background :url('../img/Фон страницы.jpg') no-repeat;
+	margin:0px auto;
+	position:relative;
+}
+.main__title {
+	margin:100px 0 30px 0;
+	text-align: center;
+	font-family: Arial regular;
+	font-size: 10pt;
+	letter-spacing:10px;
+	&:hover{
+		color:#808080;
+	}
+	
+	
+}
+.main__subtitle {
+	margin:30px 40px 30px 40px;
+	padding:10px 300px 20px 300px;
+	font-family:Times New Roman;
+	text-align: center;
+	font-size: 18pt;
+	&:hover{
+		color:#808080;
+	}
+
+}
+.main__photo {
+	border:10px solid #E0FFFF;
+	position:absolute;
+	top:20%;
+	left:20%;
+	&:hover{
+		color:#808080;
+	}
+	
+}
+.main__text {
+	font-family:Times New Roman;
+	text-align: justify;
+	font-size: 18pt;
+	padding :70px 320px 20px 270px;
+	margin:700px 40px 0 40px;
+	&:hover{
+		color:#808080;
+	}
+}
+
+.main__list {
+	font-family: Arial;
+	font-size: 12pt;
+	line-height:1.5;
+	margin:0 0 0 300px;
+
+}
+
+.list__li1 {
+	padding:0 0 0 50px;
+	background:url('../icon/icon1.png')no-repeat round;
+	font-weight:800;
+	&:hover{
+		color:#808080;
+	}
+}
+.list__li2 {
+	padding:0 0 0 50px;
+	background:url('../icon/icon1.png')no-repeat round;
+	font-style: italic;
+	&:hover{
+		color:#808080;
+	}
+}
+.list__li3 {
+	padding:0 0 0 50px;
+	background:url('../icon/icon1.png')no-repeat round;
+	text-shadow:1px 1px 1px blue;
+	&:hover{
+		color:#808080;
+	}
+
+}
+.list__li4 {
+	padding:0 0 0 50px;
+	background:url('../icon/icon1.png')no-repeat round;
+	text-decoration:line-through;
+	&:hover{
+		color:#808080;
+	}
+}
+
+.main__but {
+	width:180px;
+	height:50px;
+	border-radius:10px 10px 10px 10px;
+	margin:20px 0 0 300px;
+	background:blue;
+	color:red;
+	font-size: 20px;
+	padding:0 40px 0 0px;
+	&:hover{
+	 color:yellow;
+	}
+	&:focus{
+		background:#808080;
+	}
+	
+}

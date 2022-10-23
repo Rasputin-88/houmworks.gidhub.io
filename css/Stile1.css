@@ -1,0 +1,146 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+imput, button, textarea {
+  font-family: interit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400; }
+
+.main {
+  border: 1px solid black;
+  width: 1450px;
+  height: 1700px;
+  background: url("../img/Фон страницы.jpg") no-repeat;
+  margin: 0px auto;
+  position: relative; }
+
+.main__title {
+  margin: 100px 0 30px 0;
+  text-align: center;
+  font-family: Arial regular;
+  font-size: 10pt;
+  letter-spacing: 10px; }
+  .main__title:hover {
+    color: #808080; }
+
+.main__subtitle {
+  margin: 30px 40px 30px 40px;
+  padding: 10px 300px 20px 300px;
+  font-family: Times New Roman;
+  text-align: center;
+  font-size: 18pt; }
+  .main__subtitle:hover {
+    color: #808080; }
+
+.main__photo {
+  border: 10px solid #E0FFFF;
+  position: absolute;
+  top: 20%;
+  left: 20%; }
+  .main__photo:hover {
+    color: #808080; }
+
+.main__text {
+  font-family: Times New Roman;
+  text-align: justify;
+  font-size: 18pt;
+  padding: 70px 320px 20px 270px;
+  margin: 700px 40px 0 40px; }
+  .main__text:hover {
+    color: #808080; }
+
+.main__list {
+  font-family: Arial;
+  font-size: 12pt;
+  line-height: 1.5;
+  margin: 0 0 0 300px; }
+
+.list__li1 {
+  padding: 0 0 0 50px;
+  background: url("../icon/icon1.png") no-repeat round;
+  font-weight: 800; }
+  .list__li1:hover {
+    color: #808080; }
+
+.list__li2 {
+  padding: 0 0 0 50px;
+  background: url("../icon/icon1.png") no-repeat round;
+  font-style: italic; }
+  .list__li2:hover {
+    color: #808080; }
+
+.list__li3 {
+  padding: 0 0 0 50px;
+  background: url("../icon/icon1.png") no-repeat round;
+  text-shadow: 1px 1px 1px blue; }
+  .list__li3:hover {
+    color: #808080; }
+
+.list__li4 {
+  padding: 0 0 0 50px;
+  background: url("../icon/icon1.png") no-repeat round;
+  text-decoration: line-through; }
+  .list__li4:hover {
+    color: #808080; }
+
+.main__but {
+  width: 180px;
+  height: 50px;
+  border-radius: 10px 10px 10px 10px;
+  margin: 20px 0 0 300px;
+  background: blue;
+  color: red;
+  font-size: 20px;
+  padding: 0 40px 0 0px; }
+  .main__but:hover {
+    color: yellow; }
+  .main__but:focus {
+    background: #808080; }
